@@ -9,3 +9,12 @@
 
 // DOCUMENT READY FUNCTION BELOW
 
+$( document ).ready(function() {
+    console.log( "ready!" );
+    $("#shoot").click(function(){
+       
+        $("#userChoice").text($("#input").val())
+    
+})
+});
+
